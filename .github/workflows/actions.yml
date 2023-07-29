@@ -24,12 +24,16 @@ jobs:
  
     steps:
     # Checkout the repository to the GitHub Actions runner
-    - name: bash scripts
-      run: echo "welcome to actions"
-
+   
     - name: Checkout
       uses: actions/checkout@v2
- 
+      
+    - name: bash scripts
+      run: |
+        echo "welcome to actions"
+        cd terraform-script
+        pwd
+        
     - name: 'Terraform Format'
       uses: hashicorp/terraform-github-actions@master
       with:
