@@ -65,7 +65,7 @@ jobs:
 
     terraform-apply:
         needs: [terraform-plan]
-     #   name: 'Terraform apply'
+        name: 'Terraform apply'
         env:
             ARM_CLIENT_ID: ${{ secrets.AZURE_AD_CLIENT_ID }}
             ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
@@ -123,7 +123,7 @@ jobs:
           if: github.ref == 'refs/heads/main'
           uses: hashicorp/terraform-github-actions@master
           with:
-                tf_actions_version: 0.14.8
+                tf_actions_version: 1.4.0
                 tf_actions_subcommand: 'apply'
                 tf_actions_working_dir: "terraform-script" 
 
