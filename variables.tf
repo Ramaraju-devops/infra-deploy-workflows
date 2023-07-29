@@ -1,5 +1,5 @@
 variable "demogithubrg" {
-  type = string
+  type    = string
   default = "demogithubrg01"
 }
 
