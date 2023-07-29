@@ -1,0 +1,8 @@
+terraform {
+backend "azurerm" {
+    resource_group_name   = "github-tfstates"
+    storage_account_name  = "stracctgithubterr01"
+    container_name        = "tfstatecontainer"
+    key                   = "terragithubstate.tfstate"
+  }
+}

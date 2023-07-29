@@ -1,1 +1,9 @@
 my demo file for testing
+
+
+{
+  "appId": "5eaded78-69b1-4513-8de9-cac216967684",
+  "displayName": "GitHubServicePrincipal",
+  "password": "NpJ8Q~yvTYkZrUdAnKv85OOr_GiOfshXq3zFDa0N",
+  "tenant": "84f96efe-d3ca-47a5-bc04-8d455c1e0e15"
+}
