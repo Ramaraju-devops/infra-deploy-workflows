@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "demogithubrg" {
-  name     = var.demorgdepci01
+  name     = var.demogithubrg
   location = var.location
   tags = {
     "owner"   = "rama"

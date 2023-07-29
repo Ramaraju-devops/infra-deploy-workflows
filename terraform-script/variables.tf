@@ -3,3 +3,7 @@ variable "demogithubrg" {
   default = "demogithubrg01"
 }
 
+variable "location" {
+  default = "west europe"
+}
+
