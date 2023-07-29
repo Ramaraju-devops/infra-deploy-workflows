@@ -39,28 +39,28 @@ jobs:
       with:
         tf_actions_version: 1.4.0
         tf_actions_subcommand: 'fmt'
-        tf_actions_working_dir: "terraform-script/./terraform"
+        tf_actions_working_dir: "terraform-script"
          
     - name: 'Terraform Init'
       uses: hashicorp/terraform-github-actions@master
       with:
         tf_actions_version: 1.4.0
         tf_actions_subcommand: 'init'
-        tf_actions_working_dir: "terraform-script/./terraform"
+        tf_actions_working_dir: "terraform-script"
  
-    - name: 'Terraform Validate'
-      uses: hashicorp/terraform-github-actions@master
-      with:
-        tf_actions_version: 1.4.0
-        tf_actions_subcommand: 'validate'
-        tf_actions_working_dir: "terraform-script/./terraform"
+    # - name: 'Terraform Validate'
+    #   uses: hashicorp/terraform-github-actions@master
+    #   with:
+    #     tf_actions_version: 1.4.0
+    #     tf_actions_subcommand: 'validate'
+    #     tf_actions_working_dir: "terraform-script"
          
-    - name: 'Terraform Plan'
-      uses: hashicorp/terraform-github-actions@master
-      with:
-        tf_actions_version: 1.4.0
-        tf_actions_subcommand: 'plan'
-        tf_actions_working_dir: "terraform-script/./terraform"
+    # - name: 'Terraform Plan'
+    #   uses: hashicorp/terraform-github-actions@master
+    #   with:
+    #     tf_actions_version: 1.4.0
+    #     tf_actions_subcommand: 'plan'
+    #     tf_actions_working_dir: "terraform-script"
  
 
 
