@@ -8,3 +8,11 @@ resource "azurerm_resource_group" "demogithubrg" {
   }
 }
 
+resource "azurerm_resource_group" "demogithubrg1" {
+  name     = "demorggitact01"
+  location = var.location
+  tags = {
+    "owner"   = "rama"
+    "purpose" = "demo"
+  }
+}
