@@ -1,6 +1,6 @@
 variable "demogithubrg" {
   type    = string
-  default = "demogithubrg01"
+  default = "demgithubwftf01"
 }
 
 variable "location" {

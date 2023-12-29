@@ -1,9 +1,9 @@
-name: 'Terraform deployment'
+name: 'Terraform-workflow'
  
 on:
   push:
     branches:
-    - main
+    - demo-branch
   pull_request:
  
 jobs:
