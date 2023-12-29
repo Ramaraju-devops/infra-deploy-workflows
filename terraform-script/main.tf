@@ -5,6 +5,7 @@ resource "azurerm_resource_group" "demogithubrg" {
   tags = {
     "owner"   = "rama"
     "purpose" = "demo"
+    "environment" = "testing"
   }
 }
 
