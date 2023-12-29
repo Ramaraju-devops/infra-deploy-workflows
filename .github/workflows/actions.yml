@@ -1,4 +1,4 @@
-name: 'Terra-deploy-workflow'
+name: 'Terra-deploy-workflow-01'
  
 on:
   push:

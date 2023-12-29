@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "demogithubrg2" {
-  name     = "demogithubwfrg001"
+  name     = "demgithubwfrg01"
   location = var.location
   tags = {
     "owner"   = "rama"
@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "demogithubrg2" {
 }
 
 resource "azurerm_resource_group" "demogithubrg3" {
-  name     = "demogithubwfrg002"
+  name     = "demgithubwfrg02"
   location = var.location
   tags = {
     "owner"   = "rama"
