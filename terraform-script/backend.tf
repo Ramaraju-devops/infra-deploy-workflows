@@ -3,6 +3,6 @@ terraform {
     resource_group_name  = "github-tfstates-rg"
     storage_account_name = "stracctgithubterr01"
     container_name       = "tfstatecontainer"
-    key                  = "tfgithubwfnov23.tfstate"
+    key                  = "tfgithubwffeb24.tfstate"
   }
 }

@@ -1,4 +1,4 @@
-my demo file for testing
+ my demo file for testing 
 
 
 {
@@ -7,4 +7,11 @@ my demo file for testing
   "password": "NpJ8Q~yvTYkZrUdAnKv85OOr_GiOfshXq3zFDa0N",
   "tenant": "84f96efe-d3ca-47a5-bc04-8d455c1e0e15"
   "subscriptionId": "13917d14-a7e0-4435-8830-403a28246744"
+}
+
+{
+  "appId": "fbfa263b-16ee-443a-94ea-232c43d30c78",
+  "displayName": "terraform-app-feb24",
+  "password": "H8m8Q~cqRZCQmxqSpmQxdlaPcnyRb5jjM81JeaZV",
+  "tenant": "84f96efe-d3ca-47a5-bc04-8d455c1e0e15"
 }
