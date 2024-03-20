@@ -9,3 +9,14 @@ resource "azurerm_resource_group" "demogithubrg" {
   }
 }
 
+resource "azurerm_resource_group" "demogithubrg1" {
+  name     = var.demogithubrg1
+  location = var.location
+  tags = {
+    "owner"   = "rama"
+    "purpose" = "demo"
+    "environment" = "testing"
+  }
+}
+
+
