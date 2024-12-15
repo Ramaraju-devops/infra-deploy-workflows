@@ -5,7 +5,7 @@
   "appId": "5eaded78-69b1-4513-8de9-cac216967684",
   "displayName": "GitHubServicePrincipal",
   "password": "NpJ8Q~yvTYkZrUdAnKv85OOr_GiOfshXq3zFDa0N",
-  "tenant": "84f96efe-d3ca-47a5-bc04-8d455c1e0e15"
+  "tenant": "84f96efe-d3ca-47a5-bc04-8d455c1e0e15",
   "subscriptionId": "13917d14-a7e0-4435-8830-403a28246744"
 }
 
@@ -14,4 +14,12 @@
   "displayName": "terraform-app-feb24",
   "password": "H8m8Q~cqRZCQmxqSpmQxdlaPcnyRb5jjM81JeaZV",
   "tenant": "84f96efe-d3ca-47a5-bc04-8d455c1e0e15"
+}
+
+{
+  "appId": "a9b39a1c-1233-44ae-a811-4c76eb23f797",
+  "displayName": "githubterraformauth1",
+  "password": "Omr8Q~rn45ufhPePfxVp8msPlARKbVf2DeFQSc85",
+  "tenant": "84f96efe-d3ca-47a5-bc04-8d455c1e0e15",
+  "subscriptionId": "13917d14-a7e0-4435-8830-403a28246744"
 }

@@ -1,4 +1,4 @@
-name: 'Terraform-workflow-feb24'
+name: 'terraform-mt-action-24'
  
 on:
   push:

@@ -1,15 +1,11 @@
 variable "demogithubrg" {
   type    = string
-  default = "demgithbwrkflwrg01"
+  default = "demaghactionmt24-rg"
 }
 
-variable "demogithubrg1" {
-  type    = string
-  default = "demgithbwrkflwrg02"
-}
 
 
 variable "location" {
-  default = "west europe"
+  default = "north europe"
 }
 
