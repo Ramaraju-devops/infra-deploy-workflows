@@ -1,6 +1,6 @@
-variable "demogithubrg" {
+variable "demogithubrg01" {
   type    = string
-  default = "demaghactionmt24-rg"
+  default = "demaghactionapr25-rg1"
 }
 
 

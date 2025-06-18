@@ -1,21 +1,22 @@
-name: 'terraform-mt-action-24'
+name: 'terraform-apr-action-25'
  
 on:
   push:
     branches:
     - demo-branch
   pull_request:
- 
+
 jobs:
     terraform-plan:
         name: 'Terraform plan'
         env:
-            ARM_CLIENT_ID: ${{ secrets.AZURE_AD_CLIENT_ID }}
-            ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
-            ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-            ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+            ARM_CLIENT_ID: ${{ secrets.AZURE_ABC_CLIENT_ID }}
+            ARM_CLIENT_SECRET: ${{ secrets.AZURE_ABC_CLIENT_SECRET }}
+            ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_ABC_SUBS_ID }}
+            ARM_TENANT_ID: ${{ secrets.AZURE_ABC_TENANT_ID }}
 
         runs-on: ubuntu-latest
+
         environment: production
     
         defaults:
@@ -67,10 +68,10 @@ jobs:
         needs: [terraform-plan]
         name: 'Terraform apply'
         env:
-            ARM_CLIENT_ID: ${{ secrets.AZURE_AD_CLIENT_ID }}
-            ARM_CLIENT_SECRET: ${{ secrets.AZURE_AD_CLIENT_SECRET }}
-            ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-            ARM_TENANT_ID: ${{ secrets.AZURE_AD_TENANT_ID }}
+            ARM_CLIENT_ID: ${{ secrets.AZURE_ABC_CLIENT_ID }}
+            ARM_CLIENT_SECRET: ${{ secrets.AZURE_ABC_CLIENT_SECRET }}
+            ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_ABC_SUBS_ID }}
+            ARM_TENANT_ID: ${{ secrets.AZURE_ABC_TENANT_ID }}
 
         runs-on: ubuntu-latest
         environment: production
