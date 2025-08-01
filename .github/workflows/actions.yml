@@ -31,7 +31,6 @@ jobs:
         - name: 'bash scripts 01'
           run: |
             echo "welcome to actions"
-            az account show
             cd terraform-script
             pwd
 
